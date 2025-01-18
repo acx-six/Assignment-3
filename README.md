@@ -1,10 +1,23 @@
 # **Logistic Regression**
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Import Necessary Libraries](#import-necessary-libraries)
+3. [Load the Dataset](#load-the-dataset)
+4. [Data Preprocessing](#data-preprocessing)
+5. [General Guidelines](#general-guidelines)
+6. [Guide Questions](#guide-questions)
+7. [Conclusion](#conclusion)
+
+# **Introduction**
+
 This programming assignment involves utilizing Logistic Regression to classify breast tumors as benign or malignant using the Wisconsin Breast Cancer dataset. The dataset, sourced from the UCI Machine Learning Repository, consists of 699 instances with various attributes.
 
 The goal of this assignment is to preprocess the dataset, train a Logistic Regression model, and evaluate its performance using relevant metrics. Key tasks include handling missing values, normalizing features, splitting the dataset into training and testing subsets, and assessing the model’s accuracy, precision, recall, F1-score, and ROC-AUC. Additionally, insights into feature importance will provide a deeper understanding of the factors influencing tumor classification.
 
 This notebook serves as a guide through the process of building and evaluating a machine learning model for medical diagnosis, highlighting the importance of proper preprocessing, robust evaluation, and interpretability in the development of reliable classifiers.
+
+[Jupyter Notebook file](https://github.com/acx-six/Assignment-2/blob/main/assignment2/Assignment2Final.ipynb)
 
 # **Import Necessary Libraries**
 
@@ -431,6 +444,7 @@ display(y.head())  # Show the first few rows of the target variable
     4    0
     Name: Diagnosis, dtype: int64
 
+# **General Guidelines
 
 # **Step 1: Split the data into training and testing sets (70% training, 30% testing)**
 

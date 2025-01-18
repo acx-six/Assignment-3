@@ -17,7 +17,8 @@ The goal of this assignment is to preprocess the dataset, train a Logistic Regre
 
 This notebook serves as a guide through the process of building and evaluating a machine learning model for medical diagnosis, highlighting the importance of proper preprocessing, robust evaluation, and interpretability in the development of reliable classifiers.
 
-[Jupyter Notebook file](https://github.com/acx-six/Assignment-2/blob/main/assignment2/Assignment2Final.ipynb)
+[Jupyter Notebook file](https://github.com/acx-six/Assignment-3/blob/main/assignment2/PA3-DelaCruz.ipynb)
+[Dataset](https://archive.ics.uci.edu/dataset/15/breast+cancer+wisconsin+original)
 
 # **Import Necessary Libraries**
 
@@ -444,7 +445,7 @@ display(y.head())  # Show the first few rows of the target variable
     4    0
     Name: Diagnosis, dtype: int64
 
-# **General Guidelines
+# **General Guidelines**
 
 # **Step 1: Split the data into training and testing sets (70% training, 30% testing)**
 
